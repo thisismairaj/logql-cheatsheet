@@ -18,6 +18,16 @@ Every example here is verified against Grafana's own docs, not reconstructed fro
 
 ---
 
+## Why this matters
+
+**The moment you need this page is usually the moment something's already broken.** You're mid-incident, you half-remember that label filters anchor differently than line filters, and you don't have the patience to click through several docs pages to confirm it. The Gotcha callouts scattered through this page exist for exactly that moment: the small, easy-to-get-backwards details that cost you a wrong query and a few more minutes of an outage.
+
+The recipes section is the same idea at a larger grain. Composing a p99-latency-from-a-duration-field query correctly, from scratch, while someone's asking for an ETA, is harder than it should be. Having the working version already assembled turns a multi-minute debugging detour into a copy-paste.
+
+**One honest limit:** this is a snapshot of Grafana's own LogQL docs, not a living mirror of them. It covers the operators, parsers, and functions used here, not every corner of LogQL, and it's a reference to look things up in, not a tutorial to learn the language from.
+
+---
+
 ## Table of contents
 
 - [Stream selectors](#stream-selectors)
